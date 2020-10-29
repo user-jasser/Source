@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version = "0.01">
+		<prog_manager title = "Welcome to autoklicer">
+				<ignore page = "com.android.vending"/>
+				<ignore page = "com.android.chrome"/>
+
+				<programs title = "Crypto Rize"
+						page = "com.bprogrammers.cryptorize"
+						image = "image_1.png"
+						check_box = "true">
+
+				</programs>
+
+				<programs title = "Bitcoin Bricks"
+						page = "com.bling.bitcoinblocks"
+						image = "image_2.png"
+						check_box = "false">
+
+				</programs>
+
+
+		</prog_manager>
+
+</root>

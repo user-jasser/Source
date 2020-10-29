@@ -1,0 +1,20 @@
+com.mycompany.myappservice.MainActivity
+com.mycompany.myappservice.MainActivity: void onClick(android.view.View)
+com.mycompany.myappservice.MainActivity: MainActivity()
+com.mycompany.myappservice.MyAccessibilityService
+com.mycompany.myappservice.MyAccessibilityService: MyAccessibilityService()
+com.mycompany.myappservice.R$drawable: int ic_launcher_background
+com.mycompany.myappservice.R$drawable: int ic_launcher_foreground
+com.mycompany.myappservice.R$drawable: int ic_launcher_foreground_1
+com.mycompany.myappservice.R$drawable: int image_1
+com.mycompany.myappservice.R$id: int AddLinearLayout
+com.mycompany.myappservice.R$id: int StartButton
+com.mycompany.myappservice.R$id: int StartRadioButton
+com.mycompany.myappservice.R$id: int mainTextView
+com.mycompany.myappservice.R$layout: int main
+com.mycompany.myappservice.R$mipmap: int ic_launcher
+com.mycompany.myappservice.R$mipmap: int ic_launcher_round
+com.mycompany.myappservice.R$string: int app_name
+com.mycompany.myappservice.R$string: int hello_world
+com.mycompany.myappservice.R$style: int AppTheme
+com.mycompany.myappservice.R$xml: int accessibility_service_config

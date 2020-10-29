@@ -1,0 +1,113 @@
+java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.CharSequence android.view.accessibility.AccessibilityNodeInfo.getClassName()' on a null object reference
+	at com.mycompany.myappservice.layout.CryptorizeAdvertisingBanner.Condition(CryptorizeAdvertisingBanner.java:38)
+	at com.mycompany.myappservice.layout.LayoutTimer.actionLoopClick(LayoutTimer.java:96)
+	at com.mycompany.myappservice.layout.CryptorizeAdvertisingBanner.Action(CryptorizeAdvertisingBanner.java:71)
+	at com.mycompany.myappservice.layout.LayoutTimer$100000000.run(LayoutTimer.java:30)
+	at android.os.Handler.handleCallback(Handler.java:914)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:224)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+
+нет инергии
++android.widget.FrameLayout Text: null ViewId: null Click: false [28 998 1052 1418] [0 0 1024 420]
+  +android.widget.TextView Text: At this moment you do not have energy, pls try in a moment ViewId: null Click: false [72 1092 1008 1203] [0 0 936 111]
+  +android.widget.ScrollView Text: null ViewId: null Click: false [72 1203 1008 1374] [0 0 936 171]
+    +android.widget.Button Text: OK ViewId: null Click: true [799 1214 975 1363] [0 0 176 149]
+
+192.168.1.41
+FE80::A645:19FF:FE18:5E63
+192.168.1.41
+FE80::A645:19FF:FE18:5E63
+
+v4vc!!!
++android.widget.FrameLayout Text: null ViewId: null Click: false [28 939 1052 1476] [0 0 1024 537]
+  +android.widget.TextView Text: V4VC ViewId: null Click: false [138 1033 942 1107] [0 0 804 74]
+  +android.widget.TextView Text: Completion is required to receive your reward. Are you sure you want to skip? ViewId: null Click: false [72 1129 1008 1240] [0 0 936 111]
+  +android.widget.ScrollView Text: null ViewId: null Click: false [72 1261 1008 1432] [0 0 936 171]
+    +android.widget.Button Text: NO ViewId: null Click: true [623 1272 799 1421] [0 0 176 149]
+    +android.widget.Button Text: YES ViewId: null Click: true [799 1272 975 1421] [0 0 176 149]
+
+
++android.webkit.WebView
++android.widget.VideoView
+c4d-close-button-clickarea Click: true [970 76 1083 186]
++android.view.View Text: null ViewId: null Click: true [993 89 1067 163]
+
+[  0   76   1080   2340]
+ left  top  right  bottom
+ 
+лимит
+ +android.widget.FrameLayout Text: null ViewId: null Click: false [28 946 1052 1470] [0 0 1024 524]
+  +android.widget.TextView Text: Oops, you've exceeded the limit (5000 Points every 15 minutes). REMEMBER WE ARE IN THE BETA VERSION. You must wait: 30 Minutes ViewId: null Click: false [72 1040 1008 1255] [0 0 936 215]
+  +android.widget.ScrollView Text: null ViewId: null Click: false [72 1255 1008 1426] [0 0 936 171]
+    +android.widget.Button Text: OK ViewId: null Click: true [799 1266 975 1415] [0 0 176 149]
+========>>>
+
+
+прогрес бар зависания 
+ +android.widget.ProgressBar Text: null ViewId: null Click: false [402 1070 677 1345] [0 0 275 275]
+ 
+disconect===
+ +android.widget.FrameLayout Text: null ViewId: null Click: false [28 932 1052 1483] [0 0 1024 551]
+  +android.widget.TextView Text: Disconnected ViewId: null Click: false [248 1033 942 1107] [0 0 694 74]
+  +android.widget.TextView Text: Could not connect correctly. Please try again. If the error persists, contact us (3) ViewId: null Click: false [72 1136 1008 1247] [0 0 936 111]
+  +android.widget.ScrollView Text: null ViewId: null Click: false [72 1268 1008 1439] [0 0 936 171]
+    +android.widget.Button Text: RETRY ViewId: null Click: true [616 1279 799 1428] [0 0 183 149]
+    +android.widget.Button Text: EXIT ViewId: null Click: true [799 1279 975 1428] [0 0 176 149]
+ 
+плашка 
+
++android.widget.FrameLayoutText: null ViewId: null false28 1012 1052 1403
+  android.widget.TextViewText: MSJ: W: 10 W1: 53 W2: 58 ViewId: null false28 1012 1052 1403
+  android.widget.ScrollViewText: null ViewId: null false28 1012 1052 1403
+  +android.widget.ScrollViewText: null ViewId: null false72 1188 1008 1359
+    android.widget.ButtonText: OK ViewId: null true72 1188 1008 1359
+
+плашка
+
+TEST_NODE_INFO = com.bfast.bfree
+source:  null
+source:  Next Level 27-87
+source:  null
+source:  null
+source:  null
+source:  177320
+source:  Lvl 27-87
+source:  null
+source:  null
+source:  null
+FIND CLASS:  android.widget.Button = android.widget.Button
+========>>>
++android.widget.FrameLayout Text: null ViewId: null Click: false [0 0 1080 2340] [0 0 1080 2340]
+  +android.widget.ProgressBar Text: null ViewId: null Click: false [865 2125 997 2257] [0 0 132 132]
+========>>>
++android.widget.FrameLayout Text: null ViewId: null Click: false [28 864 1052 1551] [0 0 1024 687]
+  +android.widget.TextView Text: Our Facebook. To Check Promotional Codes
+
+https://www.facebook.com/BProgrammers/posts
+
+ ViewId: null Click: true [72 958 1008 1336] [0 0 936 378]
+  +android.widget.ScrollView Text: null ViewId: null Click: false [72 1336 1008 1507] [0 0 936 171]
+    +android.widget.Button Text: GO! ViewId: null Click: true [623 1347 799 1496] [0 0 176 149]
+    +android.widget.Button Text: OK ViewId: null Click: true [799 1347 975 1496] [0 0 176 149]
+========>>>
++android.widget.FrameLayout Text: null ViewId: null Click: false [28 864 1052 1551] [0 0 1024 687]
+  +android.widget.TextView Text: Our Facebook. To Check Promotional Codes
+
+https://www.facebook.com/BProgrammers/posts
+
+ ViewId: null Click: true [72 958 1008 1336] [0 0 936 378]
+  +android.widget.ScrollView Text: null ViewId: null Click: false [72 1336 1008 1507] [0 0 936 171]
+    +android.widget.Button Text: GO! ViewId: null Click: true [623 1347 799 1496] [0 0 176 149]
+    +android.widget.Button Text: OK ViewId: null Click: true [799 1347 975 1496] [0 0 176 149]
+    
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
++android.widget.TextView Text: null ViewId: null Click: false [721 789 721 921] [0 0 0 132]
+ 
