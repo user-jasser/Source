@@ -1,0 +1,30 @@
+; мой первый скрипт на #GET
+; версия интерпритатора 001
+INIT LIB
+   
+   VAR newInt -40
+   VAR newName "DEN" 
+   VAR nulls
+   
+   VAR newName "DENa"
+   VAR newName "DENd"
+   VAR newName "DENs"
+   
+   FUNC myCondit
+   FUNC myMain
+END
+
+FUNC myCondit
+
+END
+
+FUNC myMain ;for(int x = 0; x < 10 ; x++)
+    VAR x 0
+    POS loop
+    PUSH x
+    PUSH 10
+    ADD x 1
+    IF loop #DMIN
+
+
+END
