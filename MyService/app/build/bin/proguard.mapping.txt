@@ -1,0 +1,334 @@
+adrt.ADRTLogCatReader -> a:
+    android.content.Context context -> a
+    7:7:void <init>() -> <init>
+    13:36:void onContext(android.content.Context,java.lang.String) -> a
+    42:57:void run() -> run
+adrt.ADRTSender -> b:
+    android.content.Context context -> a
+    java.lang.String debuggerPackageName -> b
+    14:16:void onContext(android.content.Context,java.lang.String) -> a
+    70:75:void sendLogcatLines(java.lang.String[]) -> a
+com.mycompany.myappservice.BfastBfree.BfastBfreeBase -> c:
+    11:11:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String) -> <init>
+    17:24:void createLayout() -> a
+    31:31:com.mycompany.myappservice.BfastBfree.BfastBfreeBase imports(com.mycompany.myappservice.ProgramsBuilder) -> a
+com.mycompany.myappservice.BfastBfree.LayoutAdvertisingBanner -> d:
+    com.mycompany.myappservice.util.finder.FindLableClose mFindLableClose -> j
+    boolean mIsNotLoadChild -> k
+    17:19:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    25:50:boolean Condition() -> a
+    56:83:boolean Action() -> b
+    89:89:void Timeout() -> c
+com.mycompany.myappservice.BfastBfree.LayoutEnergyBaner -> e:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> k
+    18:21:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    27:36:boolean Condition() -> a
+    42:69:boolean Action() -> b
+    75:75:void Timeout() -> c
+com.mycompany.myappservice.BfastBfree.LayoutExceededLimit -> f:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    16:18:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    24:34:boolean Condition() -> a
+    41:43:boolean Action() -> b
+    void Timeout() -> c
+com.mycompany.myappservice.BfastBfree.LayoutFacebookBaner -> g:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> k
+    java.util.List mList -> l
+    19:23:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    29:38:boolean Condition() -> a
+    44:83:boolean Action() -> b
+    89:89:void Timeout() -> c
+com.mycompany.myappservice.BfastBfree.LayoutStart -> h:
+    13:13:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    19:32:boolean Condition() -> a
+    38:43:boolean Action() -> b
+    49:56:void Timeout() -> c
+com.mycompany.myappservice.BfastBfree.LayoutStartButton -> i:
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> j
+    java.util.List mList -> k
+    17:20:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    26:48:boolean Condition() -> a
+    54:101:boolean Action() -> b
+    107:107:void Timeout() -> c
+com.mycompany.myappservice.EfastEfree.EfastEfreeBase -> j:
+    11:11:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String) -> <init>
+    17:24:void createLayout() -> a
+    31:31:com.mycompany.myappservice.EfastEfree.EfastEfreeBase imports(com.mycompany.myappservice.ProgramsBuilder) -> a
+com.mycompany.myappservice.EfastEfree.LayoutAdvertisingBanner -> k:
+    com.mycompany.myappservice.util.finder.FindLableClose mFindLableClose -> j
+    boolean mIsNotLoadChild -> k
+    17:19:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    25:50:boolean Condition() -> a
+    56:83:boolean Action() -> b
+    89:89:void Timeout() -> c
+com.mycompany.myappservice.EfastEfree.LayoutEnergyBaner -> l:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> k
+    18:21:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    27:36:boolean Condition() -> a
+    42:69:boolean Action() -> b
+    75:75:void Timeout() -> c
+com.mycompany.myappservice.EfastEfree.LayoutExceededLimit -> m:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    16:18:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    24:34:boolean Condition() -> a
+    41:43:boolean Action() -> b
+    void Timeout() -> c
+com.mycompany.myappservice.EfastEfree.LayoutFacebookBaner -> n:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> k
+    java.util.List mList -> l
+    19:23:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    29:38:boolean Condition() -> a
+    44:83:boolean Action() -> b
+    89:89:void Timeout() -> c
+com.mycompany.myappservice.EfastEfree.LayoutStart -> o:
+    13:13:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    19:32:boolean Condition() -> a
+    38:43:boolean Action() -> b
+    49:56:void Timeout() -> c
+com.mycompany.myappservice.EfastEfree.LayoutStartButton -> p:
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> j
+    java.util.List mList -> k
+    17:20:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    26:47:boolean Condition() -> a
+    53:100:boolean Action() -> b
+    106:106:void Timeout() -> c
+com.mycompany.myappservice.ImportLayout -> com.mycompany.myappservice.a:
+    java.lang.String mTitle -> a
+    com.mycompany.myappservice.ProgramsBuilder mBuilder -> b
+    java.util.List mLayout -> c
+    java.util.HashMap mAll -> d
+    void createLayout() -> a
+    17:20:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String) -> <init>
+    25:34:boolean streamLayout(android.view.accessibility.AccessibilityNodeInfo) -> a
+    39:43:void destroyLayout() -> b
+    void <clinit>() -> <clinit>
+com.mycompany.myappservice.MainActivity -> com.mycompany.myappservice.MainActivity:
+    int mIndexProgram -> a
+    android.widget.Button mStart -> b
+    android.widget.RadioButton mStartLoop -> c
+    com.mycompany.myappservice.util.view.ActivityViewManagement mConfigView -> d
+    34:43:void onCreate(android.os.Bundle) -> onCreate
+    48:56:void StartPrograms() -> a
+    62:68:void onResume() -> onResume
+    75:80:void onClick(android.view.View) -> onClick
+    87:87:void onPause() -> onPause
+    95:95:void setIndexProgram(int) -> a
+    96:96:void <init>() -> <init>
+com.mycompany.myappservice.MathCash.MathCashBase -> q:
+    11:11:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String) -> <init>
+    17:17:void createLayout() -> a
+    25:25:com.mycompany.myappservice.MathCash.MathCashBase imports(com.mycompany.myappservice.ProgramsBuilder) -> a
+com.mycompany.myappservice.MyAccessibilityService -> com.mycompany.myappservice.MyAccessibilityService:
+    boolean mIsActive -> a
+    com.mycompany.myappservice.TimerMonitor mTimerMonitor -> b
+    com.mycompany.myappservice.ProgramsBuilder mPrograms -> c
+    int mWidth -> d
+    int mHeight -> e
+    35:35:int getHeight() -> a
+    45:45:int getWidth() -> b
+    50:53:void restart(java.lang.String) -> a
+    67:69:void onCreate() -> onCreate
+    75:112:int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    118:136:void onAccessibilityEvent(android.view.accessibility.AccessibilityEvent) -> onAccessibilityEvent
+    144:145:void onInterrupt() -> onInterrupt
+    151:163:void onServiceConnected() -> onServiceConnected
+    169:215:boolean isAccessibilitySettingsOn(android.content.Context) -> a
+    216:216:void <init>() -> <init>
+com.mycompany.myappservice.ProgramNode -> com.mycompany.myappservice.b:
+    int mId -> a
+    java.lang.String mTitle -> b
+    java.lang.String mPage -> c
+    java.lang.String mImage -> d
+    boolean mCheckBox -> e
+    13:13:void <init>() -> <init>
+com.mycompany.myappservice.Programs -> com.mycompany.myappservice.c:
+    com.mycompany.myappservice.MyAccessibilityService mRoot -> a
+    java.util.List mProgStack -> b
+    java.util.List mProgIgnore -> c
+    java.util.List mAllPackageName -> d
+    com.mycompany.myappservice.ProgramNode mUsedProg -> e
+    com.mycompany.myappservice.util.finder.FindTest mFindTest -> f
+    24:35:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    48:56:void allPackageName() -> a
+    62:68:boolean IgnoreEventPackage(android.view.accessibility.AccessibilityEvent) -> a
+    73:73:java.util.List getAllPackageName() -> b
+    78:81:void restart() -> c
+    86:89:void refocuse() -> d
+com.mycompany.myappservice.ProgramsBuilder -> com.mycompany.myappservice.d:
+    java.lang.String mMsg -> g
+    boolean mIsGameFinish -> h
+    int mCounterTimeout -> i
+    int mComparisonCounter -> j
+    java.lang.CharSequence mComparison -> k
+    java.lang.CharSequence mComparisonLast -> l
+    22:27:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    32:40:boolean refresh(android.view.accessibility.AccessibilityNodeInfo) -> a
+    45:49:void startNext() -> e
+    54:68:void setUsed(int) -> a
+    73:75:void start() -> f
+    81:83:void destroy() -> g
+    90:98:void failureCounterStart() -> h
+    104:118:void failureEnrichmentStart() -> i
+    124:127:void failureEnrichmentFree(java.lang.CharSequence) -> a
+    133:133:void failureCounterFree() -> j
+    138:138:com.mycompany.myappservice.ProgramNode getUsed() -> k
+com.mycompany.myappservice.TimerLayout -> com.mycompany.myappservice.e:
+    com.mycompany.myappservice.TimerLayout$IntervalRunable mAction -> a
+    android.os.HandlerThread mHandlerThread -> b
+    android.os.Handler mHandler -> c
+    com.mycompany.myappservice.ProgramsBuilder mHandle -> d
+    android.view.accessibility.AccessibilityNodeInfo mNodeInfo -> e
+    boolean mActionIsRuning -> f
+    java.lang.String mStringMessage -> g
+    long mDelay -> h
+    long mTimeOut -> i
+    long delay -> j
+    long timeout -> k
+    boolean Condition() -> a
+    boolean Action() -> b
+    void Timeout() -> c
+    69:78:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    88:103:boolean CreateTimer(long,long) -> a
+    149:152:void removeTimer() -> d
+    158:159:boolean serferMechanism(android.view.accessibility.AccessibilityNodeInfo) -> a
+com.mycompany.myappservice.TimerLayout$IntervalRunable -> com.mycompany.myappservice.f:
+    com.mycompany.myappservice.TimerLayout this$0 -> a
+    38:62:void run() -> run
+    64:64:void <init>(com.mycompany.myappservice.TimerLayout) -> <init>
+com.mycompany.myappservice.TimerMonitor -> com.mycompany.myappservice.g:
+    com.mycompany.myappservice.MyAccessibilityService mRoot -> a
+    java.lang.Runnable mMonitorRun -> b
+    android.os.HandlerThread mHandlerThread -> c
+    android.os.Handler mHandler -> d
+    android.view.accessibility.AccessibilityNodeInfo mNodeInfo -> e
+    int mCounter -> f
+    20:36:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    41:66:boolean condition() -> a
+com.mycompany.myappservice.TimerMonitor$100000000 -> com.mycompany.myappservice.h:
+    com.mycompany.myappservice.TimerMonitor this$0 -> a
+    void <init>(com.mycompany.myappservice.TimerMonitor) -> <init>
+    31:32:void run() -> run
+com.mycompany.myappservice.cryptorize.CryptorizeBase -> r:
+    12:12:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String) -> <init>
+    18:26:void createLayout() -> a
+    32:32:com.mycompany.myappservice.cryptorize.CryptorizeBase imports(com.mycompany.myappservice.ProgramsBuilder) -> a
+com.mycompany.myappservice.cryptorize.LayoutAdvertisingBanner -> s:
+    com.mycompany.myappservice.util.finder.FindLableClose mFindLableClose -> j
+    boolean mIsNotLoadChild -> k
+    16:18:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    24:49:boolean Condition() -> a
+    55:80:boolean Action() -> b
+    86:86:void Timeout() -> c
+com.mycompany.myappservice.cryptorize.LayoutButtonOK -> t:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> k
+    android.view.accessibility.AccessibilityNodeInfo mClickNode -> l
+    19:22:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    28:48:boolean Condition() -> a
+    54:70:boolean Action() -> b
+    76:76:void Timeout() -> c
+com.mycompany.myappservice.cryptorize.LayoutClickRestart -> u:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> k
+    java.util.List mList -> l
+    19:22:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    28:31:boolean Condition() -> a
+    37:79:boolean Action() -> b
+    85:91:void Timeout() -> c
+com.mycompany.myappservice.cryptorize.LayoutExceededLimit -> v:
+    com.mycompany.myappservice.util.finder.FindByText mFindByText -> j
+    16:18:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    24:33:boolean Condition() -> a
+    40:42:boolean Action() -> b
+    void Timeout() -> c
+com.mycompany.myappservice.cryptorize.LayoutGame -> w:
+    com.mycompany.myappservice.util.finder.FindClassByName mFindClassByName -> j
+    17:19:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    25:42:boolean Condition() -> a
+    48:81:boolean Action() -> b
+    86:86:void Timeout() -> c
+com.mycompany.myappservice.cryptorize.LayoutStart -> x:
+    12:12:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    18:31:boolean Condition() -> a
+    37:42:boolean Action() -> b
+    48:55:void Timeout() -> c
+com.mycompany.myappservice.cryptorize.LayoutStartButton -> y:
+    java.util.List mClickList -> j
+    15:15:void <init>(com.mycompany.myappservice.ProgramsBuilder,java.lang.String,long,long) -> <init>
+    21:32:boolean Condition() -> a
+    38:50:boolean Action() -> b
+    56:56:void Timeout() -> c
+com.mycompany.myappservice.util.FileWorker -> z:
+    java.lang.String Path -> a
+    java.lang.String FileName -> b
+    java.lang.String AbsolutePath -> c
+    java.io.File ThisFile -> d
+    15:23:void <init>(java.lang.String,java.lang.String) -> <init>
+    30:42:void write(java.lang.String) -> a
+    48:71:java.lang.String read() -> a
+    76:81:void update(java.lang.String) -> b
+com.mycompany.myappservice.util.Network -> aa:
+    17:20:boolean isNetworkAvailable(android.accessibilityservice.AccessibilityService) -> a
+com.mycompany.myappservice.util.ServiceDocumentBuilder -> ab:
+    org.w3c.dom.Document mDocument -> a
+    24:33:void <init>(android.content.Context) -> <init>
+    38:42:java.lang.String getTitle() -> a
+    47:56:java.util.List getIgnore() -> b
+    61:79:java.util.List loadPrograms() -> c
+com.mycompany.myappservice.util.finder.FindByText -> ac:
+    java.util.List mNodeList -> a
+    java.lang.String mSubstring -> b
+    16:16:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    22:36:void founder(android.view.accessibility.AccessibilityNodeInfo) -> a
+    42:47:java.util.List test(android.view.accessibility.AccessibilityNodeInfo,java.lang.String) -> a
+com.mycompany.myappservice.util.finder.FindClassByName -> ad:
+    java.util.List mNodeList -> a
+    java.lang.String mClassFound -> b
+    16:16:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    22:30:void founder(android.view.accessibility.AccessibilityNodeInfo) -> a
+    36:41:java.util.List test(android.view.accessibility.AccessibilityNodeInfo,java.lang.String) -> a
+com.mycompany.myappservice.util.finder.FindLableClose -> ae:
+    java.util.List mNodeList -> a
+    android.graphics.Rect mRectControl -> b
+    16:16:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    22:52:void founder(android.view.accessibility.AccessibilityNodeInfo) -> a
+    59:72:java.util.List test(android.view.accessibility.AccessibilityNodeInfo) -> b
+com.mycompany.myappservice.util.finder.FindTest -> af:
+    11:11:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    17:40:void founder(android.view.accessibility.AccessibilityNodeInfo) -> a
+    45:50:void test(android.view.accessibility.AccessibilityNodeInfo) -> b
+com.mycompany.myappservice.util.finder.FinderSuper -> ag:
+    com.mycompany.myappservice.MyAccessibilityService mRootContext -> c
+    com.mycompany.myappservice.util.FileWorker mLogFile -> d
+    boolean mIsDebaging -> e
+    java.lang.String mTestPrefix -> a
+    void founder(android.view.accessibility.AccessibilityNodeInfo) -> a
+    19:23:void <init>(com.mycompany.myappservice.MyAccessibilityService) -> <init>
+    29:38:void findChild(android.view.accessibility.AccessibilityNodeInfo,int) -> a
+    46:59:void find(android.view.accessibility.AccessibilityNodeInfo) -> c
+    65:67:void deletePrefix() -> a
+    72:72:void addPrefix() -> b
+    77:77:void setMTestPrefix(java.lang.String) -> a
+    82:82:java.lang.String getMTestPrefix() -> c
+    92:92:com.mycompany.myappservice.util.FileWorker getLogFile() -> d
+com.mycompany.myappservice.util.view.ActivityViewManagement -> ah:
+    com.mycompany.myappservice.MainActivity mMainActivity -> a
+    com.mycompany.myappservice.util.ServiceDocumentBuilder mServiceConfigBilder -> b
+    java.util.List mConfigurationAllPrograms -> c
+    java.util.List mViewProgramList -> d
+    java.lang.String mPath -> e
+    com.mycompany.myappservice.MainActivity access$L1000000(com.mycompany.myappservice.util.view.ActivityViewManagement) -> a
+    35:35:void showMessage(java.lang.String) -> a
+    41:41:void addButtonOnClickListener(android.widget.Button) -> a
+    55:90:android.view.View loadView(com.mycompany.myappservice.ProgramNode) -> a
+    94:108:void <init>(com.mycompany.myappservice.MainActivity) -> <init>
+    114:117:void showTitle(android.widget.TextView) -> a
+    122:136:void loadAllPrograms(android.widget.LinearLayout) -> a
+com.mycompany.myappservice.util.view.ActivityViewManagement$100000000 -> ai:
+    com.mycompany.myappservice.util.view.ActivityViewManagement this$0 -> a
+    void <init>(com.mycompany.myappservice.util.view.ActivityViewManagement) -> <init>
+    46:47:void onClick(android.view.View) -> onClick
