@@ -1,0 +1,6 @@
+ProGuard, version 6.0.3
+ProGuard is released under the GNU General Public License. You therefore
+must ensure that programs that link to it (a, com.a4455jkjh.b, ...)
+carry the GNU General Public License as well. Alternatively, you can
+apply for an exception with the author of ProGuard.
+The output seems up to date
