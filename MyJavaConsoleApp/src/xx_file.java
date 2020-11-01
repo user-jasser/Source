@@ -5,7 +5,7 @@ public class xx_file
 {
     static Vector<String> line;	
 
-	public static String toString()
+	public static String toStrings()
 	{
 		String res = "";
 		for(int x = 0; x < line.size() ; x++)
@@ -78,7 +78,7 @@ public class xx_file
             throw new RuntimeException(e);
         }
 
-		System.out.print(xx_file.toString());
+		System.out.print(xx_file.toStrings());
 
 		//System.out.print(si_line.get(3).charAt(3));
         return "";
@@ -109,7 +109,7 @@ public class xx_file
             throw new RuntimeException(e);
         }
 
-		System.out.print(xx_file.toString());
+		System.out.print(xx_file.toStrings());
 
 		//System.out.print(si_line.get(3).charAt(3));
         return "";

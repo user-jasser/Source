@@ -1,0 +1,69 @@
+; мой первый скрипт на #GET
+; версия интерпритатора 001
+INIT test
+   IMP newLib
+   
+   VAR:INT newIntegers 10
+   VAR:STR newMyName ""
+   CONST:STR newString   "Helo World ! ! !" NEXT
+   
+   FUNC:BOOL myCondition
+   FUNC:STR ferstFunction
+   MAIN myMain
+END
+
+FUNC myCondition
+   POP x
+   POP count
+   PUSH x
+   PUSH count
+   LOC myReturn GET #MIN
+   RET myReturn
+END
+
+FUNC myCondition
+   LOC:INT x GET:POP
+   LOC:INT count GET:POP
+   PUSH x
+   PUSH count
+   LOC myReturn GET:MIN
+   
+   RET myReturn
+END
+
+FUNC myCondition
+   PUSH GET:POP
+   PUSH GET:POP
+   
+   RET GET:MIN
+END
+
+FUNC myCondition [POP:INT x] [POP:INT count]
+   POP:INT x
+   POP:INT count
+   LOC:BOOL return MIN:x count
+END return
+
+FUNC ferstFunction
+   POP source
+   POP count
+   LOC x 0
+   
+   POS myLoop
+   PUSH x
+   PUSH count
+   IF myCondition      ;;  IF #MIN
+      SET source GET source
+      SET source "!"
+      ADD x +1
+      GOTO myLoop
+   END
+   RET source   
+END
+
+FUNC myMain
+   PUSH newString
+   PUSH 8
+   PUSH GET ferstFunction
+   CALL #PRINT
+END

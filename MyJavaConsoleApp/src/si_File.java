@@ -6,7 +6,7 @@ public class si_File
     static Vector<String> si_line;	
 	static si_damp globalDamp;
 	
-	public static String toString()
+	public String toString()
 	{
 		String res = "";
 		for(int x = 0; x < si_line.size() ; x++)
