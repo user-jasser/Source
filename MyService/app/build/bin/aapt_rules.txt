@@ -1,6 +1,0 @@
-# view AndroidManifest.xml #generated:35
--keep class com.mycompany.myappservice.MainActivity { <init>(...); }
-
-# view AndroidManifest.xml #generated:51
--keep class com.mycompany.myappservice.MyAccessibilityService { <init>(...); }
-
